@@ -1,5 +1,7 @@
 # weatherapp
-This is the repository for the weather app project. Note to use the app, you must add your Google maps and openweathermap keys in the file www/js/keys.js.
+This is the repository for the weather app project. The app is an ionic project. Currently, there is an iOS version. The Android version will be released soon.
+
+Note to use the app, you must add your Google maps and openweathermap keys in the file www/js/keys.js.
 
 The app includes two screens. 
 
