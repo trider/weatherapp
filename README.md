@@ -1,5 +1,7 @@
 # weatherapp
-This is the repository for the weather app project. The app includes two screens. 
+This is the repository for the weather app project. Note to use the app, you must add your Google maps and openweathermap keys in the file www/js/keys.js.
+
+The app includes two screens. 
 
 # Search screen
 Lets you search and favorite cities.
