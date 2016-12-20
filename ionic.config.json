@@ -1,0 +1,19 @@
+{
+  "name": "weatherapp",
+  "app_id": "",
+  "watchPatterns": [
+    "www/js/*",
+    "www/templates/*",
+    "www/css/*"
+  ],
+  "proxies": [
+    {
+      "path": "/places-api",
+      "proxyUrl": "https://maps.googleapis.com/maps/api"
+    },
+    {
+      "path": "/weather-api",
+      "proxyUrl": "http://api.openweathermap.org/data/2.5"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+/**
+ * Created by jonnygold on 01/05/2016.
+ */
+{
+  "data": {
+    "responseData": {
+      "feed": {
+        "feedUrl": "http://www.engadget.com/rss.xml",
+        "title": "Engadget RSS Feed",
+        "link": "http://www.engadget.com/rss.xml",
+        "author": "",
+        "description": "Engadget is a web magazine with obsessive daily coverage of everything new in gadgets and consumer electronics",
+        "type": "rss20",
+        "entries": [
+          {
+            "title": "Samsung app helps premature babies hear their mothers",
+            "link": "http://www.engadget.com/2016/05/01/samsung-voice-of-life-for-premature-babies/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 21:25:00 -0700",
+            "contentSnippet": "For babies, the sound of their mother&#039;s voice isn&#039;t just comforting -- it can be the key to healthy brain ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3867x2578+0+0/resize/1400x933!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/b3b85f23a43527a8cbeb20e26c20a805/201083946/185063038.jpg\">For babies, the sound of their mother&#39;s voice isn&#39;t just comforting -- it can be the key to healthy brain development.  That&#39;s not easy to manage for premature babies stuck in incubators, though, and Samsung thinks smartphones might help out.  Its Vo...",
+            "categories": [
+              "app",
+              "baby",
+              "gear",
+              "health",
+              "medicine",
+              "mobile",
+              "premature",
+              "samsung",
+              "science",
+              "smartphone",
+              "video",
+              "voiceoflife"
+            ]
+          },
+          {
+            "title": "'Call of Duty' teaser hints at a bleak sci-fi world",
+            "link": "http://www.engadget.com/2016/04/30/call-of-duty-infinite-warfare-teaser/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 19:36:00 -0700",
+            "contentSnippet": "The Call of Duty series has been embracing dark sci-fi settings in recent games, and that trend doesn&#039;t seem to be slowing ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/639fcdac262f1cba455076830c447200/203759305/call-of-duty-infinite-warfare-teaser.jpg\">The Call of Duty series has been embracing dark sci-fi settings in recent games, and that trend doesn&#39;t seem to be slowing down any time soon. Activision has posted a teaser for Call of Duty: Infinite Warfare that gives you a hint as what&#39;s coming, a...",
+            "categories": [
+              "activision",
+              "av",
+              "callofduty",
+              "callofdutyinfinitewarfare",
+              "gaming",
+              "infinitewarfare",
+              "video"
+            ]
+          },
+
+        ]
+      }
+    },
+  },
+}

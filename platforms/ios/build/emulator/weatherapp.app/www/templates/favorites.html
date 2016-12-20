@@ -1,0 +1,44 @@
+<ion-view>
+  <ion-nav-title>
+    <h1 class="title">Weather for <span ng-if="location">: {{ location }}</span> </h1>
+  </ion-nav-title>
+  <ion-nav-buttons side="left">
+    <a class="button button-clear button-icon icon-right ion-arrow-left-c"
+       href="#/main"></a>
+  </ion-nav-buttons>
+  <ion-content ng-init="init()">
+    <div class="row">
+      <div class="col">
+        <div ng-repeat="favorite in favorites track by $index" class="list card">
+          <div class="item item-text-wrap item-button-right"
+               ng-click="getWeather(favorite)">
+            <button class="button button-stable"
+                    ng-click="remove($index)">
+              <i class="icon ion-ios-close-empty"></i>
+            </button>
+            <p>{{favorite.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-67">
+        <div class="list card" ng-if="weather">
+          <div class="item item-divider">{{ location }}</div>
+          <div class="item item-text-wrap">
+            <p><strong>Description:</strong> {{weather.weather[0].description}}
+               <br/><strong>Temp:</strong> {{weather.main.temp}} (max:
+              {{weather.main.temp_max}} / min: {{weather.main.temp_min}})
+              <br/><strong>Visability:</strong> {{weather.visibility}}
+
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </ion-content>
+  <ion-footer-bar class="bar-stable">
+    <h1 class="title">{{ location }}</h1>
+  </ion-footer-bar>
+</ion-view>

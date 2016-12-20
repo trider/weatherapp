@@ -1,0 +1,21 @@
+{
+  "name": "angular-eha.back-button",
+  "version": "3.10.1",
+  "description": "A back button directive providing a simple interface to `window.history` and `$state.go()`",
+  "authors": [
+    "matt.richards@ehealthnigera.org"
+  ],
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "main": "dist/angular-eha.back-button.templates.js",
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

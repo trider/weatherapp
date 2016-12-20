@@ -1,0 +1,33 @@
+<ion-view>
+  <ion-nav-title>
+    <h1 class="title">{{ title }}</h1>
+  </ion-nav-title>
+  <ion-nav-buttons side="right">
+    <a href="#/favorites"
+    class="button button-clear button-icon ion-ios-list-outline"></a>
+  </ion-nav-buttons>
+  <ion-header-bar class="bar bar-subheader item item-input-inset">
+    <label class="item-input-wrapper">
+      <input
+        ng-model="request.location"
+        type="text"
+        ng-change="getPlace(request.location)"
+        placeholder="Enter a location">
+    </label>
+  </ion-header-bar>
+  <ion-content ng-init="init()">
+    <div class="list list-inset" ng-repeat="place in places.predictions">
+      <div class="item item-button-right">
+        <button
+          ng-click="addFavorite(place)"
+          class="button button-stable">
+          <i class="icon ion-android-add-circle"></i>
+        </button>
+        {{place.description}}
+      </div>
+    </div>
+  </ion-content>
+  <ion-footer-bar class="bar-stable">
+    <h1 class="title">{{ location }}</h1>
+  </ion-footer-bar>
+</ion-view>
